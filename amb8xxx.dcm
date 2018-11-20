@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AMB8xxx
+D Amber wireless WMBus transceiver
+K amb8xxx
+$ENDCMP
+#
+#End Doc Library
