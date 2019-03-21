@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name amb8xxx)(type Legacy)(uri /Users/facosta/git/kugu-home/hardware/wmbus_pihat/amb8xxx.lib)(options "")(descr ""))
+  (lib (name wmbus_pihat-rescue)(type Legacy)(uri ${KIPRJMOD}/wmbus_pihat-rescue.lib)(options "")(descr ""))
 )

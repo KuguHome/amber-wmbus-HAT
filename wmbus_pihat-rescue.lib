@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# AMB8xxx
+# AMB8xxx-amb8xxx
 #
-DEF AMB8xxx U 0 40 Y Y 1 F N
+DEF AMB8xxx-amb8xxx U 0 40 Y Y 1 F N
 F0 "U" 0 700 50 H V C CNN
-F1 "AMB8xxx" 0 -700 50 H V C CNN
+F1 "AMB8xxx-amb8xxx" 0 -700 50 H V C CNN
 F2 "" 0 100 50 H I C CNN
 F3 "" 0 100 50 H I C CNN
 DRAW

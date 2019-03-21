@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:wmbus_pihat-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -14,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L amb8xxx:AMB8xxx U1
+L wmbus_pihat-rescue:AMB8xxx-amb8xxx U1
 U 1 1 5BEED768
 P 5650 4700
 F 0 "U1" H 5650 5525 50  0000 C CNN

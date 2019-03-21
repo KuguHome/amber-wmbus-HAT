@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source /Users/facosta/git/kugu-home/hardware/wmbus_pihat/wmbus_pihat.sch)
-    (date "Monday 19 November 2018 at 18:09:39")
+    (source /Users/facosta/git/kugu-home/hardware/wmbus-hat/wmbus_pihat.sch)
+    (date "Monday 03 December 2018 at 15:16:30")
     (tool "Eeschema (5.0.1-3-g963ef8bb5)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -18,7 +18,7 @@
     (comp (ref U1)
       (value AMB8xxx)
       (footprint RF_Module:AMB8xxx)
-      (libsource (lib amb8xxx) (part AMB8xxx) (description "Amber wireless WMBus transceiver"))
+      (libsource (lib wmbus_pihat-rescue) (part AMB8xxx-amb8xxx) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5BEED768))
     (comp (ref J1)
@@ -266,11 +266,10 @@
       (pins
         (pin (num 1) (name 1) (type passive))
         (pin (num 2) (name 2) (type passive))))
-    (libpart (lib amb8xxx) (part AMB8xxx)
-      (description "Amber wireless WMBus transceiver")
+    (libpart (lib wmbus_pihat-rescue) (part AMB8xxx-amb8xxx)
       (fields
         (field (name Reference) U)
-        (field (name Value) AMB8xxx))
+        (field (name Value) AMB8xxx-amb8xxx))
       (pins
         (pin (num 1) (name Antenna) (type output))
         (pin (num 2) (name GND) (type power_in))
@@ -304,8 +303,8 @@
       (uri "/Library/Application Support/kicad/library/Device.lib"))
     (library (logical Switch)
       (uri "/Library/Application Support/kicad/library/Switch.lib"))
-    (library (logical amb8xxx)
-      (uri /Users/facosta/git/kugu-home/hardware/wmbus_pihat/amb8xxx.lib)))
+    (library (logical wmbus_pihat-rescue)
+      (uri /Users/facosta/git/kugu-home/hardware/wmbus-hat/wmbus_pihat-rescue.lib)))
   (nets
     (net (code 1) (name "Net-(C3-Pad1)")
       (node (ref U1) (pin 1))
