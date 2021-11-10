@@ -10,4 +10,4 @@ The board consists on a AMB8426-M plus some components to
 adapt an external antenna and a power input which will
 power the Raspberry through an external power source.
 
-[1] http://kicad-pcb.org/
+[1] http://kicad.org/
